@@ -1,0 +1,46 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.example.message'
+    compileSdk 28
+
+    defaultConfig {
+        applicationId "com.example.message"
+        minSdk 23
+        //noinspection ExpiredTargetSdkVersion
+        targetSdk 28
+        versionCode 14
+        versionName "2.5"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            //移除无用资源
+            shrinkResources true
+            zipAlignEnabled true  //压缩优化
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            //移除无用资源
+            shrinkResources true
+            zipAlignEnabled true  //压缩优化
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    lint {
+        baseline = file("lint-baseline.xml")
+    }
+}
+
+dependencies {
+}

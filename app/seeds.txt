@@ -1,0 +1,18 @@
+com.example.message.sms.SMSVerification
+com.example.message.sms.HeadlessSmsSendService
+com.example.message.receiver.BootReceiver
+com.example.message.sms.MmsReceiver
+com.example.message.sms.SmsReceiver
+com.example.message.service.FirstService
+com.example.message.sms.ComposeSmsActivity
+com.example.message.MainActivity
+com.example.message.MainActivity: void onClick(android.view.View)
+com.example.message.sms.MmsReceiver: MmsReceiver()
+com.example.message.util.AESUtil: AESUtil()
+com.example.message.sms.SMSVerification: SMSVerification()
+com.example.message.sms.SmsReceiver: SmsReceiver()
+com.example.message.service.FirstService: FirstService()
+com.example.message.sms.HeadlessSmsSendService: HeadlessSmsSendService()
+com.example.message.MainActivity: MainActivity()
+com.example.message.sms.ComposeSmsActivity: ComposeSmsActivity()
+com.example.message.receiver.BootReceiver: BootReceiver()

